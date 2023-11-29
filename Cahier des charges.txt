@@ -1,0 +1,96 @@
+Cahier des charges pour le site web d'une salle de musculation
+
+1. Introduction
+
+
+1.1 Objectif du projet
+
+
+Ce site web a pour objectif de promouvoir et de fournir des informations détaillées sur une salle de musculation spécifique (IlyesFit), mettant en avant les installations, programmes d'entraînement et services proposés.
+
+1.2 Portée du projet
+
+
+Ce site comporte des sections destinées à présenter la salle de musculation, ses équipements, les programmes d'entraînement et permet aux utilisateurs potentiels de contacter la salle.
+
+2. Contenu du Site
+
+
+2.1 Présentation de la Salle
+
+
+Description de la salle : Présentation descriptif détaillée de la salle, y compris son histoire, sa mission, et ses valeurs.
+
+
+2.2 Programmes d'Entraînement
+
+
+Description des programmes : Des informations détaillées sur les programmes d'entraînements proposés, en mettant en avant les avantages spécifiques de chaque programme selon le nombre de mois choisit.
+
+
+2.3 Abonnements
+
+
+Inscription en ligne : Une fonctionnalité d'inscription en ligne pour faciliter le processus d'adhésion.
+
+2.4 Contact
+
+
+Coordonnées : Des informations de contact complètes, y compris l'adresse, le numéro de téléphone et une adresse e-mail dédiée.
+
+Formulaire de contact : Un formulaire de contact permettant aux utilisateurs de poser des questions ou de demander des informations supplémentaires.
+
+
+3. Design et Interface
+
+
+3.1 Identité visuelle
+
+
+Charte graphique : Une charte graphique cohérente avec l'image de la salle, utilisant des couleurs (rgba(0, 0, 0, 0.5), rgb(16, 16, 16), #DEE2DA, #383D31, #1D1E1B, #D9D9D9 ect.. )  des polices ( Arial, Ruda, Inherit)  et des éléments visuels appropriés.
+
+Logo : Intégrer le logo de la salle de musculation de manière prominente.
+
+
+3.2 Interface utilisateur
+
+
+Navigation intuitive : Une navigation simple et intuitive pour faciliter l'accès aux informations importantes.
+
+Design responsive : Le site est adaptatif pour Mobile First et une utilisation sur divers appareils (ordinateurs, tablettes, smartphones).
+
+
+
+MISE EN SITUATION : 
+
+
+Léo 19 ans veut avoir le summer body et décide de chercher une salle de musculation,débutant il manque de motivation..
+
+Il cherche sur internet et trouve notre site qui propose :
+
+Programme d'entraînement adapté aux débutants, mettant l'accent sur la prise de masse seche avec beaucoup d'intensitée.
+Sessions d'orientation gratuites avec des instructeurs pour expliquer les machines, les exercices et l'utilisation appropriée des poids.
+Parrainage entre membres expérimentés et débutants pour favoriser un soutien mutuel et une camaraderie.
+Système de récompenses pour les accomplissements des débutants, comme des badges virtuels ou des cadeaux symboliques.
+Séances de groupe pour renforcer le sentiment d'appartenance et la motivation collective.
+
+Julie 27 ans cherche une salle de musculation où il y a de la diversitée dans les entrainements individuels ou en groupes
+
+Elle cherche sur internet et trouve notre site qui propose :
+
+Introduire une variété d'activités, y compris des cours de fitness, des séances d'entraînement en groupe, et des routines individuelles.
+Élaborer des programmes spécifiques pour différents objectifs tels que la perte de poids, la musculation, la flexibilité, etc.
+Organiser des ateliers mensuels ou des séminaires sur la nutrition, la récupération et d'autres aspects liés à la remise en forme.
+Mettre en place des événements thématiques réguliers, tels que des défis de fitness ou des jours à thème pour maintenir l'engagement.
+Recueillir des retours réguliers des membres pour ajuster et améliorer constamment les programmes d'entraînement.
+
+Alain 50 ans, à des problèmes physique, il cherche une salle où il peut se maintenir en forme et garder un bon rythmes
+
+Il cherche sur internet et trouve notre site qui propose : 
+
+Adapter les installations pour rendre l'accès plus facile aux personnes à mobilité réduite.
+Proposer des cours spéciaux adaptés à divers besoins, tels que des cours de yoga pour les personnes âgées ou des programmes d'entraînement légers pour les débutants.
+Engager des instructeurs formés à travailler avec des groupes diversifiés, y compris des personnes atteintes de conditions médicales spécifiques.
+Création d'une communauté de soutien pour les membres ayant des besoins similaires, favorisant l'inclusion et la camaraderie.
+Offrir des ressources en ligne et des conseils personnalisés pour aider les membres à surmonter les obstacles spécifiques à leurs besoins.
+
