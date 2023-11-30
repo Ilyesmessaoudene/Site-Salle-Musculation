@@ -1,3 +1,4 @@
+   /* réinitialise les marges, les espacements, les bordures et les propriétés de police par défaut pour tous les éléments de la page*/
 * {
     margin: 0;
     padding: 0;
@@ -9,6 +10,7 @@
     overflow-x: hidden;
 }
 
+/*Définition de variables pour les couleurs utilisées dans la feuille de style.*/
 :root {
     --navbar-color: rgba(0, 0, 0, 0.5);
     --navbar-color2: rgb(16, 16, 16);
@@ -18,6 +20,7 @@
     --bg-color2: #D9D9D9;
 }
 
+/* Le fond de la page est défini avec des dégradés.*/
 body {
     background:
     conic-gradient(from 135deg,#383d31 90deg,#0000 0) 95px calc(95px/2),
@@ -27,6 +30,7 @@ background-size: 190px 95px;
 
 }
 
+/* Style spécifique pour les titres h1 */
 h1 {
     padding-top: 200px;
     color: var(--text-color);
@@ -35,6 +39,7 @@ h1 {
     font-weight: bolder;
 }
 
+/* La barre de navigation est stylisée position et couleurs. */
 .navbar {
     display: flex;
     background-color: var(--navbar-color);
@@ -47,6 +52,7 @@ h1 {
     z-index: 10;
 }
 
+/* Le menu burger est stylisé position et couleur. */
 .burgerMenu {
     background-color: var(--navbar-color2);
     position: fixed;
@@ -56,6 +62,7 @@ h1 {
     z-index: 300;
 }
 
+/* Le menu burger 'a' est stylisé position et couleur. */
 .burgerMenu a {
     padding: 0;
     background-color: transparent;
@@ -63,6 +70,7 @@ h1 {
     margin-bottom: 10%;
 }
 
+/* Styles pour les éléments desktop et mobile */
 .desktop {
     display: none;
 }
@@ -72,12 +80,14 @@ h1 {
     cursor: pointer;
 }
 
+/* Styles pour le logo de la barre de navigation */
 .navbar img {
     height: fit-content;
     width: 40%;
     margin-left: 10px;
 }
 
+/* Les liens dans la barre de navigation ont des styles spécifiques de couleurs. */
 .navbar a {
     padding: 0;
     background-color: transparent;
@@ -85,6 +95,7 @@ h1 {
     margin: 0;
 }
 
+/* Les vidéos ont des styles spécifiques, une position absolue et un z-index négatif */
 video {
     position: absolute;
     z-index: -1;
@@ -93,18 +104,21 @@ video {
     height: 90%;
 }
 
+/* Les images dans cette section ont des styles spécifiques de position */
 .belowHeader img {
     margin: auto;
     display: block;
     width: 30%;
 }
 
+/* Les paragraphes ont des styles spécifiques, la taille de police et la couleur. */
 p {
     font-size: 2.8vw;
     text-align: center;
     color: var(--text-color);
 }
 
+/* Les liens ont des styles spécifiques, la couleur et la mise en page. */
 a {
     color: var(--bg-color);
     text-decoration: none;
@@ -120,11 +134,13 @@ a {
     font-size: 2.8vw;
 }
 
+/* Le container ont des styles spécifiques, la couleur de fond, la marge, et la taille de police pour les titres */
 .container {
     margin-top: 40%;
     background-color: var(--bg-color);
 }
 
+/* Le container1 'h2' et 2 'h2'  ont des styles spécifiques, la couleur de fond, la marge, et la taille de police pour les titres */
 .container h2, .container2 h2 {
     color: var(--text-color);
     font-size: 6vw;
@@ -133,6 +149,7 @@ a {
     padding-top: 50px;
 }
 
+/* Le container2 'h2' ont des styles spécifiques, la couleur de fond, la marge, et la taille de police pour les titres */
 .container2 h2 {
     color: var(--bg-color);
     font-size: 6vw;
@@ -140,17 +157,19 @@ a {
     margin: 0 auto;
 }
 
+/* Le container 'p' et 2'p' ont des styles spécifiques, qui est la marge, et la position*/
 .container p, .container2 p {
     width: 70%;
     margin: 0 auto;
     padding-top: 20px;
 }
 
+/* Le container 2 'p' a un style spécifique qui est la position et la couleur */
 .container2 p {
     width: 50%;
     color: var(--bg-color);
 }
-
+ /* Container image stylisé, position et forme */
 .container img {
     width: 80%;
     display: block;
@@ -161,6 +180,7 @@ a {
     border-radius: 20px;
 }
 
+/* Container image stylisé, position et taille */
 .container img:last-child {
     width: 25%;
     position: relative;
@@ -169,17 +189,20 @@ a {
     left: 60%;
 }
 
+/* Stylisé la police et la taille des paragraph p */
 .paragraphs p {
     font-weight: bolder;
     font-size: 5vw;
 }
 
+/* Stylisé l'imagine taille, position */
 .paragraphs img {
     border: 0;
     width: 8%;  
     margin: auto;
 }
 
+/* Stylisé, couleur de fond, taille, position et police */
 .container a {
     background-color: var(--bg-color);
     border: 2px solid var(--text-color);
@@ -188,23 +211,26 @@ a {
     margin-bottom: 30px;
 }
 
+/* Stylisé couleur et image */
 .container2 {
     background-color: var(--text-color);
     background-image: url("../img/background.png");
 }
 
+/* La section FAQ stylisé couleur, texte et position */
 .faq p {
     color: var(--text-color);
     text-align: left;
     padding: 0;
     margin: 0;
 }
-
+/* Changer largeur et hauteur des images dans la section FAQ */
 .faq img {
     width: 5%;
     height: 5%;
 }
 
+/* La section FAQ a des styles spécifiques, notamment la couleur de fond et la disposition. */
 .faq {
     display: flex;
     justify-content: space-around;
@@ -214,12 +240,14 @@ a {
     padding: 10px;
 }
 
+/* Modification taille */
 .faqBg {
     width: 80%;
     margin: 0 auto;
     margin-top: 10px; 
 }
 
+/* La réponse à la FAQ a des styles spécifiques, notamment l'affichage (initialisé à "none") et la couleur de fond. */
 .answer {
     position: relative;
     border-radius: 0px 0px 30px 30px;
@@ -233,6 +261,7 @@ a {
     display: block;
 }
 
+/* Changement police, taille, couleur et position des paragraphes */
 .answer p {
     width: 80%;
     color: var(--text-color);
@@ -240,19 +269,22 @@ a {
     font-size: 70%;
     margin: 0 auto;
     margin-bottom: 30px;
-}
+} 
 
+/* Changement position de l'élément */
 .entireFaq {
     margin-top: 5%;
     margin-bottom: 5%;
 }
 
+/* Un container flexible et direction colonne */
 #second {
     margin: 0;
     display: flex;
     flex-direction: column;
 }
 
+/* Changement position image */
 #second img {
     width: 30%;
     display: block;
@@ -263,28 +295,34 @@ a {
     position: static;
 }
 
+/* Modification marge */
 #second h2, #second p {
     padding: 0.2%;
 }
 
+/* Modification marge */
 #second h2:first-child, #second p:first-child {
     padding: 5%;
 }
 
+/* Modification marge */
 #second .month img {
     width: 10%;
 }
 
+/* Modification imagine largeur */
 .lineDivisor {
     content: url("../img/linedividor.png");
     margin: 0 auto;
     width: 50%;
 }
 
+/* Les liens de cette élément changent de couleurs */
 #second a {
     color: var(--text-color);
 }
 
+/* Element changement bordure et largeur */
 .reviews {
     border-radius: 30px;
     width: 75%;
@@ -294,6 +332,7 @@ a {
     background-image: linear-gradient(0deg, var(--bg-color) 8.45%, var(--grad-color) 110.52%)
 }
 
+/* Element changement marge et position */
 .reviewsFlex {
     margin-top: 3%;
     margin-bottom: 5%;
@@ -301,17 +340,20 @@ a {
     align-items: center;
 }
 
+/* Changement taille 'h2' */
 .reviewsFlex h2 {
     padding: 0;
     width: 80%;
 }
 
+/* Changement dimension et position des images a l'intérieur de cet élément */
 .reviewsFlex img {
     width: 80%;
     display: block;
     margin: 0 auto;
 }
 
+/* Changement couleur, largeur, position des éléments */
 .reviewsDesc {
     background-color: var(--bg-color2);
     width: 90%;
@@ -320,30 +362,35 @@ a {
     margin-bottom: 5%;
 }
 
+/* Changement largeur et marge */
 .reviewsDesc p {
     width: 80%;
     padding: 8%;
 }
 
+/* Changement couleur des titres 'h2' défini par la variable text-color*/
 .reviews h2 {
     color: var(--text-color);
 }
-
+ /* Le pied de page a des styles spécifiques, dont la couleur de fond. */
 footer {
     background-color: var(--bg-color);
 }
 
+/* Style marge et position */
 .footerFlex {
     padding-top: 5%;
     text-align: center;
 }
 
+/* Style couleur éléments 'h2' */
 footer h2 {
     color: var(--text-color);
     font-size: 6vw;
     margin-top: 6%;
 }
 
+/* Changement couleur, position et marge des paragraphes et liens */
 footer p, footer a {
     color: var(--text-color);
     font-size: 4vw;
@@ -351,6 +398,7 @@ footer p, footer a {
     margin-top: 2%;
 }
 
+/* Changement couleur, police et marges des liens */
 footer a {
     background-color: transparent;
     color: var(--text-color);
@@ -359,11 +407,13 @@ footer a {
     margin-top: 2%;
 }
 
+/* Stylisation du 'copyright */
 #copyright {
     margin-top: 12%;
     opacity: 0.5;
 }
 
+/* Stylisation des éléments, couleur, police, position, fond d'arrière plan */
 .bgImg {
     display: flex;
     flex-direction: column;
@@ -378,25 +428,30 @@ footer a {
     padding-bottom: 50%;
 }
 
+/* Stylisation marge et image en fond */
 #secondBg {
     clip-path: polygon(0 0, 100% 19%, 100% 79%, 0 100%);
     padding-top: 30%;
     background-image: url("../img/blurredBg2.png");
 }
 
+/* Changement largeur */
 #secondBg .weightlifting {
     margin-top: 0;
     width: 90%;
 }
 
+/* Les éléments ont un position relative */
 .allContainer {
     position: relative;
 }
 
+/* Stylisé largeur de l'image */
 .bgImg img {
     width: 60%;
 }
 
+/* Stylisé largeur, image en fond, bordure, couleur */
 .weightlifting {
     width: 60%;
     margin: 0 auto;
@@ -407,6 +462,7 @@ footer a {
     background-size: cover;
 }
 
+/* Stylisation des titres 'h2' police, couleur, marge et alignement */
 .weightlifting h2 {
     font-size: 7vw;
     color: var(--text-color);
@@ -416,16 +472,19 @@ footer a {
     text-align: center;
 }
 
+/* Changement pour les paragraphes de marge et ombre */
 .weightlifting p {
     text-shadow: black 2px 1px;
     padding: 5%;
 }
 
+/* Stylisation hauteur et clip-path polygonal */
 #programHeader {
     height: 80vh;
     clip-path: polygon(0 0, 100% 0, 100% 80%, 0% 100%);
 }
 
+/* Stylisation image de fond, police, taille */
 #finalBg {
     clip-path: none;
     margin-top: 10%;
@@ -436,6 +495,7 @@ footer a {
     padding-bottom: 10%;
 }
 
+/*Changement marge et largeur */
 #finalBg .weightlifting {
     margin: 0;
     margin-top: 30%;
@@ -443,12 +503,14 @@ footer a {
     margin-left: 5%;
 }
 
+/* Changement image de fond et taille de fond ajustée */
 #signup {
     background-image: url("../img/phoneSign.png");
     background-size: cover;
     
 }
 
+/* Changement bordure, largeur, marge, position, couleur selon texte et remplissage */
 .form {
     background-color: var(--bg-color2);
     width: 90%;
@@ -461,11 +523,13 @@ footer a {
     margin-bottom: 50%;
 }
 
+/* Stylisation couleur selon variable texte, et marge */
 .form h2 {
     color: var(--bg-color);
     padding-top: 6%;
 }
 
+/* Stylisation champs de formulaire et selections position, marge et bordure */
 input, select {
     text-align: center;
     margin-top: 5%;
@@ -473,33 +537,40 @@ input, select {
     border-radius: 50px;
 }
 
+/* Changement de marge pour les delections */
 select {
     width: 60%;
 }
 
+/* Changement couleur selon texte, largeur */
 input[type="submit"] {
     background-color: var(--grad-color);
     color: var(--text-color);
     width: 60%;
 }
 
+/* Ces styles s'appliquent lorsque la largeur de la fenêtre est d'au moins 480 pixels. Cela inclut des ajustements pour la barre de navigation, la taille de police, la disposition des éléments, */
 @media (min-width:480px) {
     .navbar {
         height: 15%;
     }
 
+    /* Styles pour les éléments mobile */
     .mobile {
         display: none;
     }
 
+    /* Styles pour les éléments desktop */
     .desktop {
         display: block;
     }
 
+    /* Style marge premiere image */
     .navbar img:first-child {
         margin-right: 50%;
     }
 
+    /* couleur et fond définie par la variable, marge */
     #register {
         background-color: var(--bg-color2);
         padding: 1%;
@@ -507,16 +578,20 @@ input[type="submit"] {
         color: var(--bg-color);
     }
 
+    /* Changement marge et largeur image dans navbar */
     .navbar img {
         margin-left: 40px;
         width: 15%;
     }
+
+    /* Largeur et longeur de la vidéo */
     video {
         object-fit: cover;
         width: 100%;
         height: 150%;
     }
 
+    /* Changement pour les titres 'h1' de la largeur et de la marge */
     h1 {
         font-size: 4vw;    
         width: 70%;
@@ -524,39 +599,47 @@ input[type="submit"] {
         padding-top: 300px;
     }
 
+    /* Changement largeur pour les images de cette classe */
     .belowHeader img {
         width: 15%;
     }
 
+    /* Changement taille police paragraphes 'p' */
     p {
         font-size: 1.5vw;
     }
 
+    /* Stylisation des liens 'a', taille et police */
     a {
         font-size: 1.5vw;
         width: 15%;
     }
 
+    /* Changement marge des éléments */
     .container {
         margin-top: 19%;
     }
 
+    /* Changement position, taille et police des titres 'h2' */
     .container h2 {
         text-align: left;
         width: fit-content;
         font-size: 3vw;
     }
 
+    /* Tous les éléments 'p' changent de positions,largeur et marge */
     .container p {
         text-align: left;
         width: 70%;
         margin: 0;
     }
 
+    /* Changement largeur pour les images */
     .container img {
         width: 40%;
     }
 
+    /* Pour la derniere image changement de marge, position et largeur */
     .container img:last-child {
         width: 10%;
         margin: 0;
@@ -565,42 +648,51 @@ input[type="submit"] {
         margin-top: -15%;
     }
 
+    /* Les éléments avec la classe choose seront affichés en mode flex */
     .choose {
         display: flex;
     }
 
+    /* Changement de largeur pour le premier élément */
     .choose div:first-child {
         width: 90%;
     }
 
+    /* Stylisation largeur et position */
     .rejoin {
         width: 90%;
         margin: 0 auto;
     }
 
+    /* Changement de marge */
     .paragraphs {
         margin-top: 40px;
     }
 
+    /* Changement taille et largeur des paragraphes 'p' */
     .paragraphs p {
         font-size: 2vw;
         width: fit-content;
     }
 
+    /* Stylisation largeur et marge des images */
     .paragraphs img {
         width: 10%;
         margin: 0;
     }
-
+    
+    /* Stylisation fond avec image, en mode grille */
     .container2 {
         background-image: url("../img/backgroundMobile.png");
         display: grid;
     }
 
+    /* Stylisation 'h2'de la taille de la police */
     .container2 h2 {
         font-size: 3vw;
     }
 
+    /* Deux colonnes, deux lignes, un espacement de colonnes et un espacement de lignes */
     .entireFaq {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -609,92 +701,112 @@ input[type="submit"] {
         grid-row-gap: 70px;
     }
 
+    /* Changement de police des paragraphes */
     .answer p {
         font-size: 1vw;
     }
 
+    /* Enfant 'h2' et paragraphe, position, marge et remplissage */
     #second h2:first-child, #second p {
         margin: 0 auto;
         padding: 1%;
         text-align: center;
     }
 
+    /* Enfant 'h2' stylisation de marge */
     #second h2:first-child {
         margin-top: 3%;
     }
 
+    /* Image de fond, largeur, marge */
     .lineDivisor {
         content: url("../img/lineDividorAligned.png");
         width: 5%;
         margin: 0;
     }
 
+    /* Alignement centre, espace entre et autour des éléments */
     .subscriptions {
         display: flex;
         align-items: center;
         justify-content: space-around;
     }
 
+    /* Stylisation largeur premiere enfant */
     .subscriptions div:first-child {
         width: 20%;
     }
 
+    /* Largeur */
     .months6 {
         width: auto;
     }
 
+    /* Stylisation titres 'h2' position, marge, largeur */
     .subscriptions h2 {
         text-align: center;
         margin: auto;
         width: 150%;
     }
 
+    /* Position texte */
     .monthtext {
         text-align: center;
     }
 
+    /* Image largeur */
     #second img {
         width: 50%;
     }
 
+    /* Titre 'h2' largeur */
     #second h2 {
         width: 70%;
     }
 
+    /* month marge auto */
     .month {
         margin: 0 auto;
     }
 
+    /* Image changement marge, hauteur, largeur */
     #second .month img {
         width: 100%;
         margin-bottom: 100%;
         margin-top: 120%;
     }
 
+    /* Mode flex */
     .reviewsDesktop {
         display: flex;
     }
 
+    /* Changement largeur */
     .reviews {
         width: 40%;
     }
 
+    /* Changement largeur */
     .reviewsFlex img {
         width: 100%;
     }
 
+    /* Changement largeur */
     .stars img {
         width: 50%;
     }
 
+    /* Changement largeur */
     .stars {
         width: 60%;
     }
 
+    /* Espacement et alignement */
     .reviewsFlex {
         justify-content: space-around;
     }
 
+    /* Espacement et alignement */
     .footerFlex {
         display: flex;
         justify-content: space-around;
@@ -702,27 +814,33 @@ input[type="submit"] {
         align-items: center;
     }
 
+    /* Largeur image */
     footer img {
         width: 100%;
     }
 
+    /* Les titres 'h2' changement taille de police */
     footer h2 {
         font-size: 2vw;
     }
 
+    /* Les paragraphes et liens changement taille de police */
     footer p, footer a {
         font-size: 1vw;
     }
 
+    /* Alignement, marge */
     #copyright {
         text-align: center;
         margin: 0 auto;
     }
 
+    /* Stylisation hauteur */
     #programHeader {
         height: 150vh;
     }
 
+    /* espacement autour et entre les elements */
     .bgImg {
         flex-direction: row-reverse;
         justify-content: space-evenly;
@@ -731,11 +849,13 @@ input[type="submit"] {
         padding-top: 30%;
     }
 
+    /* Image en fond et largeur */
     .bgImg img {
         content: url("../img/weightliftingGuy.png");
         width: 100%;
     }
 
+    /* Direction de colonne */
     #secondBg {
         flex-direction: column;
     }
@@ -744,37 +864,46 @@ input[type="submit"] {
         content: inherit;
     }
 
+    /* Changement largeur */
     .weightlifting {
         width: 35%;
     }
 
+    /* Chanhement taille police */
     .weightlifting h2 {
         font-size: 5vw;
     }
 
+    /* Image en fond */
     #finalBg {
         background-image: url("../img/cardio.jpg")
     }
 
+    /* Stylisation des marges */
     #finalBg .weightlifting {
         margin: 0;
         margin-top: 10%;
         margin-right: 50%;
     }
 
+    /* Directive colonne et alignement */
     #myform {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
 
+    /* stylistion largeur */
     .form {
         width: 40%;
     }
 
+    /* Titre 'h2' marge */
     .form h2{
         margin: auto;
     }
+
+    /* Stylisation alignement, largeur, marge, remplissage, bordure */
     input {
         width: 80%;
         text-align: left;
@@ -783,6 +912,7 @@ input[type="submit"] {
         border-radius: 50px;
     }
     
+    /* Alignement de texte, couleur de fond et couleur de texte par la variable et largeur */
     input[type="submit"] {
         text-align: center;
         background-color: var(--grad-color);
